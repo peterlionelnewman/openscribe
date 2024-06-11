@@ -1,0 +1,11 @@
+attr==0.3.2
+joblib==1.4.0
+matplotlib==3.8.4
+numpy==1.26.4
+numpy_stl==3.1.1
+opencv_python==4.9.0.80
+opencv_python_headless==4.9.0.80
+pyvista==0.43.5
+scipy==1.13.1
+skimage==0.0
+tqdm==4.66.2
