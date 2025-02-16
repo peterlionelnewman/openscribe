@@ -6,10 +6,9 @@ OpenScribe is free and open-source software for the design and simulation of 3D 
 
 --- 
 
-### 3D PRINTED MATERIALS WITH NANOVOXELATED ELASTIC MODULI
+## 3D PRINTED MATERIALS WITH NANOVOXELATED ELASTIC MODULI
 - Repo: https://github.com/peterlionelnewman/openscribe
-- Paper doi: ----------------
-- Paper url: ----------------
+- Paper doi: [10.1002/adma.202416262](doi.org/10.1002/adma.202416262)
 
 Peter L. H. Newman, 2024, (peterlionelnewman @github)
 
@@ -41,3 +40,12 @@ OpenScribe can be used:
 Further description of OpenScribes features are described in Table S2 - of the supplementary information of the paper
 
 Creative Commons Attribution-NonCommercial 4.0 International Public License  - github.com/peterlionelnewman/openscribe/LICENSE
+
+### Other
+- PRs welcome
+- An update to [pygfx][(https://github.com/pygfx/wgpu-py) - if theres enough demand
+
+### Citation
+Please cite us if you use this in any way!
+- Newman et al., 3D Printed materials with nanovoxelated elastic moduli, Advanced Materials, 2025, [10.1002/adma.202416262](doi.org/10.1002/adma.202416262)
+  
