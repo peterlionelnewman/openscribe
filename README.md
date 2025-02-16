@@ -30,6 +30,8 @@ cd openscribe
 pip install -r requirements.txt
 ```
 
+[Supplemental Info](./resources/si.pdf)
+
 ---
 
 ### Using OpenScribe
@@ -43,7 +45,7 @@ Creative Commons Attribution-NonCommercial 4.0 International Public License  - g
 
 ### Other
 - PRs welcome
-- An update to [pygfx][(https://github.com/pygfx/wgpu-py) - if theres enough demand
+- An update to [pygfx](https://github.com/pygfx/wgpu-py) - if theres enough demand
 
 ### Citation
 Please cite us if you use this in any way!
