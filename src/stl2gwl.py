@@ -681,10 +681,16 @@ def render_gov_to_gwl(
 
     # gov to gwl; one gov_vol slice at a time
     if print_prop.unit_cell_fill < 1:
-        sigma = (print_prop.unit_cell_period / 2) * print_prop.unit_cell_fill
-        sigma = np.argmin(np.abs(x[0, :] - x[0, :].min() - sigma))
+        sigma_value = (print_prop.unit_cell_period / 2) * print_prop.unit_cell_fill
+        sigma_value = max(sigma_value, 0.1)
+        sigma = np.argmin(np.abs(x[0, :] - x[0, :].min() - sigma_value))
+        sigma = max(sigma, 1)
     else:
-        sigma = len(x) // 2
+        sigma = max(len(x) // 2, 1)
+
+    # safeguard for gaussian filter
+    pad_amount = min(int(np.round(3 * sigma)), x.shape[0] // 2)
+    pad_amount = max(pad_amount, 1)
 
     # pick a random offset here in degree 0 -> 180
     rotation_offset = np.random.randint(0, 180)
